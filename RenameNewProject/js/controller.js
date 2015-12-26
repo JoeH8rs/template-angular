@@ -1,6 +1,6 @@
 angular.module('myApp').controller('mainControl',
-    function ($scope) {
-        $scope.name = "Controller & App Conected";
+    function ($scope, myService) {
+        $scope.name = myService.saySomething;
 
 
 
