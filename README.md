@@ -13,8 +13,9 @@ t.bat
 
 ```script
 xcopy "C:\Users\Joe Neuman\Desktop\template" /E /I 
-``` *Copies the RenameNewProject folder and all it's contects to your current path.*
-``script
+``` 
+*Copies the RenameNewProject folder and all it's contects to your current path.*
+```script
 set /p UserInputPath= New Project Name?  // Prompts you for the new name of the RenameNewProject folder.
 rename RenameNewProject %UserInputPath%  // Changes RenameNewProject to new name you entered. 
 cd %UserInputPath% // Moves into the new directory folder.
